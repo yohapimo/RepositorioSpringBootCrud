@@ -1,6 +1,9 @@
 function traerInformacion() {
   $.ajax({
     url: "http://localhost:8081/api/contacts",
+
+    // Api realizada en Servidor de Oracle Cloud para hacer pruebas.
+    //url: "https://gc2648324623f36-db202203081956.adb.sa-santiago-1.oraclecloudapps.com/ords/admin/contact/contact",
     type: "GET",
     dataType: "json",
 
